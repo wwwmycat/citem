@@ -1,0 +1,297 @@
+.slides li>img{
+   height: 222px;
+   width: 100%;
+}
+.one img{
+	width: 100%;
+}
+.slide-cons .myLine{
+    top: 40%;
+}
+.heros{
+	position: static;
+	margin-top: 40px;
+	background: #000;
+	margin-left: auto;
+	margin-right: auto;
+}
+.myContainer h3{
+	margin-bottom: 30px;
+}
+.car-info{
+	font-size: 24px;
+}
+.car-info::before{
+    height: 24px;
+    top: 11px;
+}
+.car-lists li a{
+	font-size: 16px;
+}
+.heros{
+	margin-bottom: 30px;
+}
+.picList{
+	position: relative;
+	width: 1000%;
+	color: white;
+}
+.picList li{
+	width: 10%;
+	float: left;
+	margin-right: 0;
+}
+.container{
+	width: 320px;
+}
+.redLine{
+	margin-left: 0;
+}
+.aboutCompany{
+	position: static;
+	max-width: 100%;
+	top: 0;
+    left: 0;
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+.aboutCompany h4{
+	font-size: 16px;
+	text-align: center;
+}
+.aboutCompany p{
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 90%;
+	font-size: 13px;
+	text-align: center;
+}
+.car img{
+	margin-top: -54px;
+	width: 108px;
+	height: 108px;
+}
+.publicNum p,.scan{
+	font-size: 13px;
+}
+.myBtn{
+	width: 140px;
+	height: 40px;
+	font-size: 12px;
+	line-height: 28px;
+}
+.myDate{
+	position: static;
+	margin-top: 10px;
+}
+.myDate span{
+	position: relative;
+	color: white;
+}
+.myDate span::after{
+	content: '';
+	width: 12px;
+	height: 2px;
+	background: #C00;
+	position: absolute;
+	left: 0;
+	bottom: -10px;
+}
+.company-details{
+	flex-direction: column;
+}
+.mypic{
+	width: 100%;
+	background: white;
+}
+.introduce{
+	width: 100%;
+	background: white;
+}
+.introduce{
+	padding-top: 20px;
+}
+.writting{
+	margin-left: 0;
+	margin-bottom: 0;
+}
+.writting li{
+	margin-right: 10px;
+}
+.myWrittings{
+	margin-bottom: 30px;
+}
+.myWrittings p{
+    margin-top: 20px;
+	text-align: center;
+    font-size: 18px;
+    color: #666;
+}
+.myWrittings ol{
+	margin-left: 77px;
+}
+.myWrittings li{
+	float: left;
+	margin-right: 10px;
+	width: 44px;
+	height: 2px;
+	background: #666;
+}
+.myWrittings li.long{
+	width: 70px;
+	background: #c00;
+}
+.information{
+	margin-bottom: 20px;
+}
+.information p{
+	line-height: 25px;
+	margin-right: 15px;
+}
+.more{
+	margin-left: 140px;
+}
+.twoIntroduce{
+	float: none;
+	padding-left: 0;
+}
+.myWrittings ol.my{
+	margin-left: 35px;
+}
+section p{
+	margin-bottom: 25px;
+	max-width: 327px;
+	font-size: 14px;
+	line-height: 20px;
+}
+.design li{
+	font-size: 13px;
+}
+.car {
+    margin-top: -20px;
+}
+.drive{
+	margin-bottom: 50px;
+}
+.mySlide{
+	margin-top: -7px;
+    background: #000;
+}
+.container{
+     padding-right: 15px; 
+     padding-left: 15px;
+}
+.picList li {
+     border-right: 1px solid #f1f1f1;;
+}
+.click-right{
+    right: -12px;
+}
+.click-left, .click-right{
+    top: 280px;
+}
+.cries{
+	position: relative;
+}
+.cire{
+	display: none;
+	position: fixed;
+	right: 10px;
+}
+.myMedia{
+	display: flex;
+	flex-direction: column;
+}
+.myMedia .media-body{
+	width: 100%;
+}
+.myMedia .media-left,.myMedia .media-right{
+	width: 100%;
+}
+.myMedia-body {
+    padding-left: 0;
+}
+#xsnav ul{
+	position: fixed;
+	right: 20px;
+	top: 400px;
+}
+#xsnav li{
+	cursor: pointer;
+	margin-bottom: 30px;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: #E1E1E1;		
+}
+#xsnav li a{
+	opacity: 0;
+	background: #212121;
+	padding: 3px 10px;
+	margin-top: -8px;
+	color: #333;
+	font-size: 12px;
+	position: fixed;
+	right: 0;
+	z-index: 9;
+}
+#xsnav li.ch{
+	background: #c00;
+}	
+#xsnav li a.ch{
+	color: white;
+	text-decoration: none;
+	animation: move 2s linear;
+}
+@keyframes move{
+	0%{
+		opacity: 0;
+	}
+	50%{
+		opacity: 1;
+	}
+	100%{
+		opacity: 0;
+	}
+}
+.list-info li {
+   float: none; 
+     padding-top: 0; 
+    padding-bottom: 0; 
+    margin-right: 0;
+}
+.nav{
+	background: transparent;
+}
+.media-left{
+    padding-right: 0;
+}
+.media-right{
+	padding-left: 0;
+}
+.myNone,.parag{
+	display: none;
+}
+.myModal-content{
+	background: rgba(255,255,255,0.85);
+}
+.close {
+    margin-right: 0;
+}
+.more-msg h4{
+	font-size: 22px;
+	color: #666;
+}
+.myfade{
+	background: url(../img/car-engin-mobile@2x.png) no-repeat;
+}
+#contents{
+	margin-top: 0;
+}
+.fmenu,.fd{
+	padding: 0px;
+}
+.mapCon{
+	height: 270px;
+}
+

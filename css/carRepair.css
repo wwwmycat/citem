@@ -1,0 +1,391 @@
+.slide{
+	position: relative;
+	overflow: hidden;
+}
+.slide>ul{
+	position: relative;
+	width: 1000%;
+}
+.slide>ul li{
+	float: left;
+	width: 10%;
+}
+.lines{
+	position: absolute;
+	top: 85%;
+	left: 50%;
+	margin-left: -50px;
+}
+.lines li{
+	float: left;
+	position: relative;
+	margin-right: 10px;
+	width: 36px;
+	height: 1px;
+	background: white;
+}
+.two::after{
+	content: '';
+	position: absolute;
+	width: 0;
+	height:  1px;
+	background: #00ADEF;
+	animation: change 2s linear;
+}
+.lines li.myLines{
+	width: 72px;
+}
+@keyframes change{
+	from{width:0}
+	to{width: 72px;}
+}
+.slide span{
+	position: absolute;
+	top: 50%;	
+}
+.slide .right{
+	right: 20px;
+}
+.slide .right::after{
+	content: '';
+	border-left: 1px solid white;
+	border-bottom: 1px solid white;
+}
+.slide-info{
+   position:absolute;
+   top: 100px;
+   width: 100%;
+   font-size: 14px;
+   color: white;
+}
+.slide-info p{
+	margin-left: auto;
+    margin-right: auto;
+    max-width: 640px;
+    text-align: center;
+}
+.slide-info .myBtn{
+	width: 160px;
+	height: 40px;
+	line-height: 28px;
+}
+.hiding{
+	display: none;
+}
+.slide>span{
+	position: absolute;
+	display: none;
+	top: 50%;
+	margin-top: -13px;
+	width: 26px;
+	height: 26px;
+	transform: rotate(45deg);
+	cursor: pointer;
+}
+.slide>span.arrow-left{
+	left: 50px;
+	border-bottom: 3px solid white;
+	border-left:  3px solid white;
+}
+.slide>span.arrow-right{
+	right: 50px;
+	border-top: 3px solid white;
+	border-right: 3px solid white;
+}
+.container{
+	width: 940px;
+}
+.repairCon{
+	overflow: hidden;
+	text-align: center;
+}
+.repair{
+	display: inline-block;
+	position: relative;
+	margin-bottom: 20px;
+	font-size: 30px;
+	line-height: 40px;
+	color: #666;
+	font-family: "SimSun",serif;
+}
+.repair::before,.repair::after{
+	content: '';
+	position: absolute;
+	top: 20px;
+	width: 650px;
+	height: 1px;
+	background: #E1E1E1;
+}
+.repair::before{
+	right: -650px;
+}
+.repair::after{
+	left: -650px;
+}
+.myRow .thumbnail{
+	border: 0;
+}
+.responsive-img,section{
+	width: 100%;
+}
+.one{
+	color: #000000;
+	font-size: 20px;
+	font-weight: 600;
+}
+.info-list li:nth-of-type(1){
+	border-top: 1px solid #e1e1e1;
+}
+.info-list li{
+	line-height: 40px;
+	border-bottom: 1px solid #e1e1e1;
+}
+.info-list li a{
+	cursor: pointer;
+	color: #666;
+	font-size: 16px;
+}
+.info-list li a:hover,.admit a{
+	text-decoration: none;
+}
+.infos p{
+	margin:50px auto 30px;
+	max-width: 880px;
+	text-align: center;
+	font-size: 16px;
+    font-weight: normal;
+    color: #333;
+    line-height: 1.75;
+    letter-spacing: 0.4px;
+    width: 80%;
+}
+.infos p b{
+	font-size: 20px;
+}
+.myBtn{
+	display: block;
+	margin: 0 auto;
+	width: 200px;
+	height: 50px;
+	border: none;
+	border-radius: 0;
+	color: white;
+	font-size: 14px;
+	text-align: center;
+	line-height: 38px;
+	background: #00adef;
+}
+.myBtn:hover{
+    color: white;
+    background: #00adef;
+}
+.my{
+	margin-top: 60px;
+}
+.imgs{
+	display: block;
+	margin: 10px auto 0;
+	padding: 10px;
+	width: 112px;
+	height: 112px;
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.25);
+}
+.imgs img{
+	width: 92px;
+	height: 92px;
+}
+.attention{
+	display: block;
+	margin-top: 20px;
+	font-size: 14px;
+	color: #666666;
+	font-weight: 600;
+}
+.attention i{
+	font-style: normal;
+}
+.myCon{
+	margin-top: 60px;
+	text-align: center;
+}
+.admit{
+	margin-top: 120px;
+	position: relative;
+	text-align: left;
+	padding-top: 30px;
+}
+.admit::after{
+	content: '';
+	position: absolute;
+	top: 2px;
+	left: 0;
+	width: 80px;
+	height: 3px;
+	background: #000;
+}
+.admit a{
+	font-size: 14px;
+	color: #00adef;
+}
+.share{
+	float: right;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	color: #000;
+	font-size: 16px;
+}
+.share a{
+	color: #666;
+}
+.share span{
+	display: inline-block;
+	margin-left: 17px;
+}
+#content{
+	width: 100%;
+}
+.hh{
+	margin-top: 60px;
+	width: 335px;
+	line-height: 38px;
+	display: block;
+	background-color: #00ADEF;
+	color: white;
+}
+.hh i{
+	font-style: normal;
+}
+.mapWarp{
+	position: relative;
+	background: url(../img/maps.PNG) no-repeat;
+	height: 620px;
+}
+.inputs{
+	position: absolute;
+	top: 15px;
+	left: 30px;
+	height: 580px;
+    width: 375px;
+    box-shadow: 0 4px 10px 0 rgba(196,196,196,0.5);
+    background: white;
+}
+.input-top{
+	margin-bottom: 20px;
+	padding: 15px;
+}
+.inputs input{
+	border: 0;
+	padding-left: 40px;
+	padding-right: 40px;
+	outline: none;
+}
+.input{
+	padding: 6px 10px 6px 20px;
+	border: 1px solid #F1F1F1;
+	font-size: 15px;
+	color: #999;
+}
+.mySearch{
+	margin-right: -20px;
+}
+.three{
+	float: right;
+}
+.input-top p:nth-of-type(1) span{
+	color: #999;
+}
+.input-top p:nth-of-type(1) i{
+	color: #00ADEF;
+	font-size: 18px;
+}
+.input-bottom>span{
+	padding-left: 15px;
+}
+.input-bottom>p{
+    padding-left: 17px;
+    padding-right: 17px;
+    margin-top: 20px;
+	font-size: 14px;
+	font-weight: bold;
+	border-bottom: 3px solid #d8d8d8;
+}
+.list,.tow-list{
+    position: relative;
+	cursor: pointer;
+}
+.input-bottom .list{
+	float: left;
+}
+.input-bottom .lists{
+	color: #00ADEF;
+}
+.input-bottom .lists::after{
+	content: '';
+	position: absolute;
+	bottom: -3px;
+	left: -5px;
+	width: 40px;
+	height: 3px;
+	background: #00ADEF;
+}
+.input-bottom .tow-list{
+	float: right;
+}
+.first{
+	font-size: 14px;
+	text-align: center;
+	 color: #a1a1a1;	
+}
+.first span{
+    color: #666;	
+}
+.first>p{
+	margin-top: 100px;
+}
+.second{
+	display: none;
+	padding: 15px;
+}
+.details{
+	margin-bottom: 20px;
+}
+.details li{
+	float: left;
+	padding: 0 7px;
+	margin-top: 15px;
+	margin-right: 2px;
+	height: 35px;
+	border: 1px solid #C7C7C7;
+	border-radius: 26px;
+	line-height: 35px;
+	cursor: pointer;
+	font-size: 13px;
+	color: #666;
+}
+.myBtns{
+	width: 335px;
+	height: 40px;
+	line-height: 28px;
+}
+.upCon{
+	position: absolute;
+    top: 30px;
+    left: 405px;
+    width: 32px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    color: #666;
+    background: white;
+    cursor: pointer;
+}
+.myUp{
+    transition: all 1s;	
+}
+.change{
+	transform: rotate(180deg);
+}
+.myInputs{
+	display: none;
+	height: 65px;
+}

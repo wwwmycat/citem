@@ -1,0 +1,19 @@
+.row p{
+	margin-top: 60px;
+	line-height: 30px;
+    color: white;
+    font-size: 16px;
+}
+.row p b{
+	display: inline-block;
+	font-size: 20px;
+}
+.mypictrue .col-md-12{
+	padding: 0;
+}
+#contents{
+	background: white;
+}
+#content{
+	margin-top: 60px;
+}

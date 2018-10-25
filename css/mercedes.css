@@ -1,0 +1,41 @@
+.mercedes{
+	width: 100%;
+	width: 100%;
+	position: relative;
+}
+.merImg{
+	width: 100%;
+}
+.fix-title{
+	width: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	color: #fff;
+	padding-top: 30px;
+}
+.fix-title p{
+	font-size: 18px;
+	margin-top: 100px;
+	margin-bottom: 30px;
+	width: 746px;
+}
+.fix-title .btns{
+	width: 100%;
+	text-align: center;
+}
+.loginBtn{
+	display: inline-block;
+     height: 40px;
+     min-width: 160px;
+     color: #fff;
+     font-size: 18px;
+     background: #00ADEF;
+     line-height: 40px;
+     text-align: center;
+     padding: 0px 10px;
+}
+.loginBtn:hover{
+	background:#176db7 ;
+	color: #fff;
+}

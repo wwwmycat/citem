@@ -1,0 +1,68 @@
+.container{
+	width: 100%;
+}
+.repair{
+	font-size: 24px;
+}
+.infos p{
+	text-align: left;
+	font-size: 13px;
+	color: #666;
+}
+.infos p b {
+    font-size: 16px;
+}
+.myBtn{
+	width: 140px;
+	height: 40px;
+	line-height: 28px;
+}
+.admit::after{
+	width: 48px;
+}
+.bottomInfo{
+	padding-bottom: 30px;
+	background: #f8f8f8;
+}
+.myCon{
+	padding-left: 0;
+	padding-right: 0;
+}
+.admit{
+	margin-left: 15px;
+}
+.share{
+	margin-right: 15px;
+}
+.myRepair{
+	margin-top: 50px;
+}
+.hh{
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.slide-info{
+	position: static;
+	clear: both;
+	color: #000;
+}
+.slide-info p{
+     margin: 30px 15px 20px;
+}
+.lines{
+	top: 50%;
+}
+.inputs{
+	position: static;
+}
+.myInputs{
+	display: block;
+	height: 150px;
+}
+.inputs{
+	box-shadow: none;
+}
+.mapWarp{
+	height: 270px;
+}

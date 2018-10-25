@@ -1,0 +1,21 @@
+/*
+* @Author: admin
+* @Date:   2018-10-16 13:39:34
+* @Last Modified by:   admin
+* @Last Modified time: 2018-10-16 13:41:20
+*/
+.nav .title-list li:nth-of-type(6) {
+	float: left;
+}
+.li-text .num,.fspeed{
+	display: block;
+}
+.fspeed{
+	color: #999;
+	margin-top: 7px;
+}
+.fsmall{
+	font-size: 12px;
+	margin-left: 5px;
+}
+

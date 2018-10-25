@@ -1,0 +1,275 @@
+*{
+	font-family: "微软雅黑";
+	margin: auto;
+	text-decoration: none;
+}
+.xs-navtl{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	height: 100px;
+}
+.xs-navtl-br{
+	height: 50px;
+	border-bottom: 1px solid #e1e1e1;
+}
+.xs-navtl span{
+	font-family: "宋体";
+	display: block;
+	background: white;
+	width:250px;
+	margin-top: -25px;
+	text-align: center;
+	color: #666;
+	font-size: 34px;
+	transform: scaleX(0.7);
+}
+.xs-box{
+	position: relative;
+}
+@media(min-width: 781px) {
+	#xsnav{
+		width: 100%;
+		height: 63px;
+	}
+	#xsnav ul{
+		margin-left: 22%;
+	}
+	#xsnav li{
+		float: left;
+		margin-right: 5.5%;
+	}
+	#xsnav li a{
+		color: #222222;
+		line-height: 60px;
+		z-index: 2;
+		font-family: "微软雅黑";
+		cursor: pointer;
+	}
+	#xsnav li.ch{
+		border-bottom: 3px solid #00adef;
+	}	
+	#xsnav li a.ch{
+		color: #00ADEF;	
+		text-decoration: none;
+	}
+	.xs-kkk{
+		font-family: "宋体";
+		display: block;
+		position: absolute;
+		text-align: center;
+		width: 100%;
+		top: 80px;
+		text-align: center;
+		color: #666;
+		font-size: 36px;
+		transform: scaleX(0.7);	
+	}	
+	.xs-spic li{
+		list-style: none;
+		float: left;
+		width: 33%;
+		margin:20px 0;
+	}
+	.xs-spic a i{
+		font-weight: 100;
+		font-size: 16px;
+		color: #00ADEF;
+		margin-right: 5px;
+	}
+	.xs-spic{
+		margin-top: -45px;
+	}
+	.xs-nav{
+		position: absolute;
+	}
+	.xs-nav2{
+		position: fixed;
+		top: 0;
+		background: white;
+		z-index: 3;
+		border-bottom: 1px solid #E1E1E1;	
+	}
+	section h4{
+		margin: 40px 0;
+		font-size: 20px;
+		font-weight: bold;
+	}
+	.xs-spic p{
+		font-size: 14px;
+	}
+	section{
+		margin-top: 62px;
+		position: relative;
+	}
+}
+@media (max-width:780px ){
+	#xsnav{
+		position: fixed;
+		right: 10px;
+		top: auto;
+		z-index: 9;
+	}
+	.xs-navtl{
+		margin-top: 20px;
+		height: 80px;
+	}
+
+	.xs-navtl-br{
+		height: 50px;
+		margin-left: -30px;
+		margin-right: -30px;
+		border-bottom: 1px solid #e1e1e1;
+	}
+	.xs-navtl span{
+		font-family: "宋体";
+		display: block;
+		background: white;
+		width:180px;
+		margin-top: -20px;
+		text-align: center;
+		color: #666;
+		font-size: 24px;
+		transform: scaleX(0.7);
+	}
+	
+	#xsnav li{
+		cursor: pointer;
+		margin-bottom: 30px;
+		width: 8px;
+		height: 8px;
+		border-radius: 50%;
+		background: #E1E1E1;		
+	}
+	#xsnav li a{
+		opacity: 0;
+		border: 1px solid #E1E1E1;
+		background: white;
+		padding: 3px 10px;
+		margin-top: -8px;
+		color: #333;
+		font-size: 12px;
+		position: fixed;
+		right: 0;
+		z-index: 9;
+	}
+	#xsnav li.ch{
+		background: #00ADEF;
+	}	
+	#xsnav li a.ch{
+		text-decoration: none;
+		animation: kkkk 2s linear;
+	}
+	@keyframes kkkk{
+		0%{
+			opacity: 0;
+		}
+		50%{
+			opacity: 1;
+		}
+		100%{
+			opacity: 0;
+		}
+	}
+	.xs-kkk{
+		font-family: "宋体";
+		display: block;
+		text-align: center;
+		width: 100%;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		text-align: center;
+		color: #333;
+		font-size: 26px;
+		font-weight: bold;
+		transform: scaleX(0.7);	
+	}	
+	.xs-spic{
+		width: 100%;
+	}
+	.xs-spic li{
+		list-style: none;
+		float: left;
+		width: 100%;
+		margin:20px 0;
+		border-bottom: 1px solid #e1e1e1;
+	}
+	.xs-spic a i{
+		float: right;
+		font-weight: 100;
+		font-size: 16px;
+		color: #00ADEF;
+		margin-right: 5px;
+	}
+	section h4{
+		margin: 40px 0;
+		font-size: 15px;
+		font-weight: bold;
+	}	
+	.xs-spic p{
+		font-size: 12px;
+	}
+	section{
+		margin-top: 10px;
+		position: relative;
+	}
+}
+
+li.ch1{}
+
+section img:nth-of-type(1){
+	width: 100%;
+}
+section small{
+	margin-left: 10px;
+}
+.xs-spic p{
+	margin-top: 50px;
+	margin-bottom: 20px;
+	display: block;
+	color: #333;
+}
+.xs-spic ul{
+	overflow: auto;
+	margin-bottom: 50px;
+}
+.xs-spic a{
+	color: #333333;
+	margin: 0;
+	cursor: pointer;
+}
+.xs-bottom span{
+	display: block;
+	float: left;
+	width: 48px;
+	height: 3px;
+	background: #333;
+}
+.xs-bottom p{
+	overflow: auto;
+	line-height: 30px;
+	color: #333;
+	font-size: 14px;
+}
+.xs-share{
+	float: right;
+	margin: 20px 0;
+}
+.xs-share p{
+	float: left;
+	font-size: 14px;
+}
+.xs-share span{
+	margin-left: 20px;
+	float: left;
+	display: block;
+	width: 32px;
+	height: 32px;
+}
+.xs-share span:nth-of-type(1){
+	background: url(../img/微信.png) no-repeat;
+	background-size: 100%;	
+}
+.xs-share span:nth-of-type(2){
+	background: url(../img/微博.png) no-repeat;
+	background-size: 100%;	
+}

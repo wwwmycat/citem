@@ -1,0 +1,32 @@
+.container{
+	width: 100%;
+}
+.myContainer{
+   position: static;
+   margin-top: 0;
+   background: #000000;
+}
+.content span {
+    margin-bottom: 0; 
+    margin-top: 30px;
+}
+.content h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 24px;
+    line-height: 28px;
+}
+.word p {
+    font-size: 13px;
+    line-height: 30px;
+}
+.container .content{
+	width: 100%;
+}
+.content span {
+    display: inline-block;
+}
+.share {
+    margin-top: 20px; 
+    margin-bottom: 50px;
+} 

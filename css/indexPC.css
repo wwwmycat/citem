@@ -1,0 +1,618 @@
+body{
+	width: 100%;
+	overflow-x: hidden;
+	font-family: "Arial",sans-serif;	
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 1.83333;
+    color: #222;
+}
+a:hover{
+	text-decoration: none;
+}
+ul{
+	margin: 0px;
+}
+.wraps{
+	max-width: 940px;
+	margin: 0 auto;
+}
+nav .navbars li>a:hover,.carMenu-list li a:hover,
+.carFooter a:hover,.buyTips:hover a,
+.moreHide a:hover,.reTips a:hover,footer dd>a:hover{
+	color: #00ADEF;
+	text-decoration: none;
+}
+header,nav,.navbars{
+	box-sizing: border-box;
+}
+header{
+	width: 100%;
+}
+nav{
+	background: #222;	
+}
+nav .navTop{
+	padding-top: 22px;
+	height: 108px;
+}
+.logo{
+	width: 259px;
+	height: 64px;
+	float: left;
+}
+nav .navbars{
+	float: left;
+	height: 100%;
+}
+nav .navbars li{
+	float: left;
+	margin:40px 0 20px ; 
+	position: relative;
+}
+.five::before{
+	content:'';
+	width: 14px;
+	height: 14px;
+	border-top: 1px solid transparent;
+	border-left: 1px solid transparent;
+    background: white;
+	position: absolute;
+	bottom: -30px;
+	left: 50%;
+	margin-left:16px;
+	transform: rotate(45deg);	
+}
+nav .navbars li>a{
+	color: white;
+	font-weight: 400;
+	margin-left: 50px;
+}
+nav .nav-search{
+	float: right;
+	color: white;
+	font-size: 16px;
+	height:100%;
+	margin-top: 30px;
+}
+.myfont1,.myfont2{
+	font-size: 20px;
+}
+nav .nav-search span:hover{
+	color: #00ADEF
+}
+nav .navbars li>a.navColor{
+	color: #00ADEF;
+}
+.search-box{
+	display: none;
+}
+.searchBox{
+	text-align: right;
+	height: 60px;
+	clear: both;
+	color: #fff;
+	position: relative;
+	margin: 0 auto;
+	display: none;
+}
+.searchBox i{
+	position: absolute;
+	right:233px;
+	width: 30px;
+	text-align: center;
+}
+.searchBox .search-btn,.searchBox input,.searchBox i{
+	height: 36px;
+	line-height: 36px;
+	vertical-align: top;
+}
+.searchBox .search-btn{
+	display: inline-block;	
+	width: 36px;
+	margin-left: 10px;
+	color: #fff;
+	font-size: 20px;
+	background: #666;	
+	text-align: center;	
+}
+.searchBox input{
+	width: 215px;	
+	border: 1px solid 	#fff;
+	border-radius: 1px;
+	padding-left: 33px;
+	box-sizing: border-box;
+	line-height: 36px;
+	background: #000;	
+	outline:none;
+}
+.wrapper{	
+	display: none; 
+	position: relative;
+	z-index: 9999;
+}
+.wrapper .title{	
+	margin-top: 40px;
+	font-size:30px;
+	font-weight: 100;
+	color: #333;
+	font-family: "宋体";
+}
+.car-menu{
+	position: relative;
+	overflow: hidden;
+}
+.wrapper .car-list{
+	 padding: 20px 0px;
+}
+.wrapper .car-list li{
+   float: left;  
+   margin-right: 50px;
+   font-size: 16px;
+   color: #666;
+   cursor: pointer;
+}
+.carActive{
+	border-bottom: 3px solid #00ADEF;
+}
+.carMenu-list{
+	width:9999999px;
+	position: relative;
+	display: none;
+}
+.carMenu-list li{
+	float: left;
+	width:224px;
+	margin-right:11px;
+	color: #666;
+	font-size: 14px;
+}
+.shows{
+	display: block ;
+}
+.click{	
+	width:30px;
+	height:150px;
+	position: absolute;	
+	line-height: 150px;
+	text-align: center;
+	top:117px;
+	color: #00ADEF;
+	box-shadow: 0px 0px 4px #eee;
+}
+.next{	
+	right:-19px;
+}
+.pre{
+	left:-32px;	
+}
+.disappear{
+	display: none;
+}
+.carMenu-list li h4 span{
+	font-size:36px;
+	margin-right: 5px;
+	font-family: "simsun";
+}
+.carMenu-list li a{
+	display: block;
+	margin-top: 26px;
+	color: #666;
+	position: relative;
+}
+.carMenu-list{
+	padding-bottom: 60px;
+}
+.carMenu-list li a p{
+	margin: 0px;
+}
+.dd1::before{
+	content:'';
+	width:21px;
+	height:2px;
+	background: #666;
+	position: absolute;
+	top:-17px;
+}
+.carFooter{
+	height:87px;
+	border-top:1px solid #ccc;
+	line-height: 87px;
+}
+.carFooter a{
+	margin-right: 50px;
+	color: #666;
+	font-size:18px;
+	font-weight:bold;
+	font-family: "宋体";	
+	position: relative;
+}
+.carFooter .line{
+	margin-left: 50px;
+}
+.buyTips{
+	padding-top: 20px;
+}
+.wrapper .buycars li{
+	/*float: left;*/
+	/*宽度为25%-15px*/
+	width: calc(25% - 15px);
+	margin-right: 20px;	
+}
+.wrapper .buycars li img{
+	width: 100%;
+}
+.wrapper .buycars li:nth-of-type(4){
+	margin-right: 0px;
+}
+.buycars li a{
+	font-size: 14px;
+	color: #333;
+}
+.buycars li p{
+	font-size: 12px;
+	padding: 5px 0px;
+	line-height:20px;
+}
+.navActive{
+	display: block;
+}
+.banner{	
+	position: relative;
+	height: 562px;
+}
+.bannerPic{
+	margin: 0px;
+}
+.bannerPic li{
+	position: absolute;
+	display: none;
+	width: 100%;
+	height: 0px;
+	padding-bottom: 52%;
+}
+ .sildePic>img{
+	width: 100%;
+}
+.bannerTitle{
+	position: absolute;
+	width: 100%;
+	top: 0px;
+	margin-top: 40px;
+	text-align: center;
+}
+.bannerTitle p{
+	color: #fff;
+	padding: 20px 0px;
+	margin: 0px;
+}
+.bannerTitle .more{
+	display: inline-block;
+    width: 100px;
+    height: 30px;
+    background: #00ADEF;
+    color: #fff;
+    line-height: 30px;
+}
+.bannerTitle .more:hover{
+	text-decoration: none;
+}
+.myfont3{
+	font-size: 32px;
+}
+.slideBtn{
+	position: absolute;
+	width: 30px;
+	height: 100px;
+	top: 50%;
+	margin-top: -50px;
+	text-align: center;
+	line-height: 100px;
+	font-size: 30px;
+	color: #fff;
+	display: none;
+}
+.banner .right{
+	right:20px;
+}
+.clickBtn{
+	position: absolute;
+	bottom:10px;
+	width:300px;
+	height: 30px;
+	left: 50%;
+	margin-left: -60px;	
+}
+.three{
+	width:36px;
+	height: 1px;
+	background: #fff;	
+	display: inline-block;
+}
+.container{
+	max-width: 940px;
+	padding: 0px;
+}
+.allTitle{
+	font-size:36px;	
+	text-align: center;
+	font-weight:normal;
+	position:relative;
+	color: #666;
+	padding: 60px 0px 40px;
+	overflow: hidden;
+}
+.allTitle span{
+	position: relative;
+	padding: 0px 10px;
+	font-family: simsun;
+}
+.allTitle span::before{
+    content: '';
+    width: 650px;
+    height: 1px;
+    background-color:#e1e1e1;
+    position: absolute;
+    left: -650px;
+    z-index: 1;
+    top: 18px;
+}
+.allTitle span::after{
+	content: '';
+    width: 650px;
+    height: 1px;
+    background-color:#e1e1e1;
+    position: absolute;
+    right: -650px;
+    z-index: 1;
+    top: 18px;
+}
+.carsContent{
+	width: 100%;
+	position: relative;
+}
+.carTabs {
+	position: absolute;
+	top: 0px;
+	left:0px;
+	width: 100%;
+	height: 100%;
+}
+.carTabs li{
+	border-right:1px solid #fff;
+	position: relative;
+	cursor: pointer;
+	height: 100%;
+}
+.carTabs li span{
+	position: absolute;
+	max-width:95px;
+	color: white;
+    left: 50%;
+    font-weight:bold;
+    font-size:19px;
+    font-family: "微软雅黑";
+    text-align: center;
+    top:60%;
+    transform: translateX(-50%);
+}
+.carTabs li span.cover::before{
+	content:'\e625';
+	width: 32px;
+	height: 32px;
+	border-radius:50%;
+	border:1px solid #fff;
+	display: block;	
+	background: #fff;
+	text-align: center;
+	color: #ddd;
+	font-weight: bold;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: "cn-icons";
+	line-height: 32px;
+	margin-bottom: 10px;
+	font-family: "iconfont";
+	font-size: 12px;
+	color: #222;
+}
+.carTabs .myfont{
+	font-size: 32px;
+	display: block;
+	margin: 0 auto 10px;
+	z-index: 99;
+	font-weight: normal;
+}
+.carHover{
+	background: rgba(0,0,0,0.38);
+} 
+.morePic{
+	width: 100%;
+}
+.seeMore li{
+	float: left;
+	margin-bottom: 10px;
+	height: 100%;
+	box-sizing: border-box;
+	position: relative;
+}
+.seeMore li:nth-of-type(2){
+	width:620px;
+	margin-right: 10px;
+}
+.seeMore li:nth-of-type(3){
+	width:310px;
+}
+.moreTitle{
+	position: absolute;
+	padding: 80px 0px 0px 40px;
+	top:0px;
+	left:0px;
+	color: #FFFFFF;	
+	height: 100%;
+	width: 100%;
+	box-sizing: border-box;
+}
+.moreTitle p,.reTips p{
+	font-size: 30px;
+	font-family:simsun;
+	position: relative;
+}
+.moreHide{
+	display: none;
+}
+.moreHide p,.reTips .rep{
+	font-size: 16px;
+	line-height: 12px;
+	font-weight: 500;
+}
+.moreHide a{
+	color: #fff;
+	font-weight: 500;
+	display: inline-block;
+	margin-top: 20px;
+}
+.pcenter{
+	top: 50px;
+}
+.reservation{
+	position: relative;
+	margin-top: 70px;
+}
+.reservation img{
+	max-width: 100%;
+}
+.panel{
+	width: 940px;
+	margin: 0 auto;
+}
+.reTips{
+	position: absolute;
+	width: 300px;
+	height: 200px;
+	background: #fff;
+	padding: 40px;
+	top: 50%;
+	margin-top: -100px;
+}
+.reTips p{
+	margin-bottom: 20px;
+}
+.reTips a{
+	color: #333
+}
+.share{
+	padding: 40px 0px 100px;
+}
+.share .shares{
+	text-align: right;
+	font-size: 16px;
+	padding-right: 20px;
+}
+.share .shares span{
+	vertical-align: middle;
+}
+.shares .myfont3{
+	font-size: 24px;
+	margin-left: 20px;
+}
+.font2{
+	color: #666;
+}
+footer{
+	background: #f1f1f1;
+}
+footer a{
+	color: #333;
+}
+.fmenu{
+	padding: 30px 0px 15px;
+}
+.fmenu dl{
+	 font: inherit;
+	 font-size: 14px;	
+}
+.fmenu dt,.others dt,.aboutUs dt{
+	font-size: 20px;
+	 font-weight: 500;
+}
+.fmenu dd{
+	margin-top: 20px;
+}
+.others{
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	padding: 30px 0px;
+}
+.others dl{
+	margin-bottom: 0px;
+}
+.others dd,.aboutUs dd{
+	float: left;
+	width: 20%;
+	margin-top: 20px;
+}
+.aboutUs{
+	padding: 30px 0px 35px;
+}
+.aboutUs dd{
+	width: 44px;
+	height: 44px;
+	margin-right: 20px;
+	position: relative;
+}
+.abouthover{
+	width: 44px;
+    position: absolute;
+    top: 0px;
+    display: none;
+}
+.copyRight{
+	height: 50px;
+	background: #222;
+	display:flex;
+}
+.copyRight .copyBox{
+	display: flex;
+	width: 100%;
+	align-items: center;/*垂直居中*/
+}
+.copyRight dl{
+	width: 100%;
+	margin-bottom: 0px;
+}
+.copyRight dd{	
+	display: inline-block;
+	margin-right: 20px;
+}
+.copyRight dd>a{
+	color: #aaa;
+	font-size: 12px;
+}
+.one::after{
+	content:'';	        	
+	height:2px;
+	background: #00ADEF;
+	position: absolute;   
+	animation: move 3s linear;     	
+}
+@keyframes move{
+	from{width:0px}
+	to{width:72px}
+}
+.two{
+	width:72px;
+}
+.four{
+	width:72px;
+	background: #00ADEF;
+}
+.col-xs-12 {
+	padding: 0px;
+}
+.bannerPic li.shows{
+	display: block;
+}
+.sildePic .bannerImg{
+	width: 100%;
+}

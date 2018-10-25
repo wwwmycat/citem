@@ -1,0 +1,128 @@
+*{
+	font-family: "微软雅黑";
+}
+li{
+	list-style: none;
+}
+.xs-bottom{
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+.jr-navtl{
+	margin-top: 20px;
+	height: 100px;
+}
+.jr-navtl span{
+	margin: auto;
+}
+.jr-navtl-br{
+	height: 50px;
+	border-bottom: 1px solid #e1e1e1;
+}
+.jr-navtl span{
+	font-family: "宋体";
+	display: block;
+	background: white;
+	width:180px;
+	margin-top: -25px;
+	text-align: center;
+	color: #666;
+	font-size: 34px;
+	transform: scaleX(0.7);
+}
+.yy-wrapper{
+	position: relative;
+}
+.yy-fram{
+	float: left;
+	padding: 0;
+}
+.yy-right{
+	position: absolute;
+	right: 0;
+	top: 0;
+	background: url(../img/testdrivebg.jpg) no-repeat right;
+	float: right;
+	height: 500px;
+}
+.yy-fram input[type=text]{
+	border: none;
+	border-bottom: 1px solid #999;
+	outline: none;
+	margin: 30px 0 20px 0;
+	padding: 0;
+}
+.yy-fram input[type=radio]{
+	margin-left: ;
+	padding: 0;
+}
+
+.yy-fram p{
+	margin: 10px 0;
+	color: #666;
+	font-size: 14px;
+}
+.yy-fram span{
+	color: #00ADEF;
+}
+.yy-fram button{
+	margin: 30px 0 ;
+	background: #00ADEF;
+	border: none;
+	color: white;
+	height: 40px;
+	/*width: 140px;*/
+}
+
+.xs-share{
+	float: right;
+	margin: 50px 0 0 0 ;
+}
+.xs-share p{
+	overflow: auto;
+	line-height: 30px;
+	color: #333;
+	font-size: 14px;	
+	float: left;
+	font-size: 14px;
+}
+.xs-share span{
+	margin-left: 20px;
+	float: left;
+	display: block;
+	width: 32px;
+	height: 32px;
+}
+.xs-share span:nth-of-type(1){
+	background: url(../img/微信.png) no-repeat;
+	background-size: 100%;	
+}
+.xs-share span:nth-of-type(2){
+	background: url(../img/微博.png) no-repeat;
+	background-size: 100%;	
+}
+@media  (max-width:780px ) {
+	.jr-navtl{
+		margin-top: 20px;
+		height: 80px;
+	}
+
+	.jr-navtl-br{
+		height: 50px;
+		margin-left: -30px;
+		margin-right: -30px;
+		border-bottom: 1px solid #e1e1e1;
+	}
+	.jr-navtl span{
+		font-family: "宋体";
+		display: block;
+		background: white;
+		width:150px;
+		margin-top: -20px;
+		text-align: center;
+		color: #666;
+		font-size: 24px;
+		transform: scaleX(0.7);
+	}
+
+}

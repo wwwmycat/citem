@@ -1,0 +1,43 @@
+.topPic img{
+	width: 100%;
+}
+#contents{
+	background: white;
+}
+.myContainer{
+   position: relative;
+   margin-top: -143px;
+   z-index: 9999;
+}
+.content span{
+	display: block;
+	margin-bottom: 60px;
+}
+.word {
+	margin-left: 0;
+	margin-right: 0;
+}
+.word p{
+	padding: 0;
+	color: white;
+	font-size: 16px;
+	line-height: 35px;
+}
+.word img{
+	width: 100%;
+}
+.word b{
+	display: inline-block;
+	margin-top: 50px;
+	font-size: 20px;
+	color: white;
+}
+.mypictrue{
+	margin-top: 10px;
+}
+.mypictrue,.mypictrue>.col-md-12{
+	padding: 0;
+}
+.bottomCon{
+	background: #000;
+}

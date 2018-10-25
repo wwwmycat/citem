@@ -1,0 +1,616 @@
+
+body{
+	width: 100%;
+	overflow-x: hidden;
+	font-family: "Arial",sans-serif;	
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 1.83333;
+    color: #222;
+}
+a:hover{
+	text-decoration: none;
+}
+ul{
+	margin: 0px;
+}
+.wraps{
+	max-width: 940px;
+	margin: 0 auto;
+}
+nav .navbars li>a:hover,.carMenu-list li a:hover,
+.carFooter a:hover,.buyTips:hover a,
+.moreHide a:hover,.reTips a:hover,footer dd>a:hover,.nav .title-list li a:hover{
+	color: #00ADEF;
+	text-decoration: none;
+}
+header,nav,.navbars{
+	box-sizing: border-box;
+}
+header{
+	width: 100%;
+}
+nav{
+	background: #222;	
+}
+nav .navTop{
+	padding-top: 22px;
+	height: 108px;
+}
+.logo{
+	width: 259px;
+	height: 64px;
+	float: left;
+}
+nav .navbars{
+	float: left;
+	height: 100%;
+}
+nav .navbars li{
+	float: left;
+	margin:40px 0 20px ; 
+	position: relative;
+}
+.five::before{
+	content:'';
+	width: 14px;
+	height: 14px;
+	border-top: 1px solid transparent;
+	border-left: 1px solid transparent;
+    background: white;
+	position: absolute;
+	bottom: -30px;
+	left: 50%;
+	margin-left:16px;
+	transform: rotate(45deg);	
+}
+nav .navbars li>a{
+	color: white;
+	font-weight: 400;
+	margin-left: 50px;
+}
+nav .nav-search{
+	float: right;
+	color: white;
+	font-size: 16px;
+	height:100%;
+	margin-top: 30px;
+}
+.myfont1,.myfont2{
+	font-size: 20px;
+}
+nav .nav-search span:hover{
+	color: #00ADEF
+}
+nav .navbars li>a.navColor{
+	color: #00ADEF;
+}
+.search-box{
+	display: none;
+}
+.searchBox{
+	text-align: right;
+	height: 60px;
+	clear: both;
+	color: #fff;
+	position: relative;
+	margin: 0 auto;
+	display: none;
+}
+.searchBox i{
+	position: absolute;
+	right:233px;
+	width: 30px;
+	text-align: center;
+}
+.searchBox .search-btn,.searchBox input,.searchBox i{
+	height: 36px;
+	line-height: 36px;
+	vertical-align: top;
+}
+.searchBox .search-btn{
+	display: inline-block;	
+	width: 36px;
+	margin-left: 10px;
+	color: #fff;
+	font-size: 20px;
+	background: #666;	
+	text-align: center;	
+}
+.searchBox input{
+	width: 215px;	
+	border: 1px solid 	#fff;
+	border-radius: 1px;
+	padding-left: 33px;
+	box-sizing: border-box;
+	line-height: 36px;
+	background: #000;	
+	outline:none;
+}
+.wrapper{	
+	display: none; 
+	position: relative;
+	z-index: 9999;
+}
+.wrapper .title{	
+	font-size:30px;
+	font-weight: 100;
+	color: #333;
+	font-family: "宋体";
+}
+.car-menu{
+	position: relative;
+	overflow: hidden;
+}
+.wrapper .car-list{
+	 padding: 20px 0px;
+}
+.wrapper .car-list li{
+   float: left;  
+   margin-right: 50px;
+   font-size: 16px;
+   color: #666;
+   cursor: pointer;
+}
+.carActive{
+	border-bottom: 3px solid #00ADEF;
+}
+.carMenu-list{
+	width:9999999px;
+	position: relative;
+	display: none;
+}
+.carMenu-list li{
+	float: left;
+	width:224px;
+	margin-right:11px;
+	color: #666;
+	font-size: 14px;
+}
+.shows{
+	display: block ;
+}
+.click{	
+	width:30px;
+	height:150px;
+	position: absolute;	
+	line-height: 150px;
+	text-align: center;
+	top:117px;
+	color: #00ADEF;
+	box-shadow: 0px 0px 4px #eee;
+}
+.next{	
+	right:-19px;
+}
+.pre{
+	left:-32px;	
+}
+.disappear{
+	display: none;
+}
+.carMenu-list li h4 span{
+	font-size:36px;
+	margin-right: 5px;
+	font-family: "simsun";
+}
+.carMenu-list li a{
+	display: block;
+	margin-top: 26px;
+	color: #666;
+	position: relative;
+}
+.carMenu-list{
+	padding-bottom: 60px;
+}
+.carMenu-list li a p{
+	margin: 0px;
+}
+.dd1::before{
+	content:'';
+	width:21px;
+	height:2px;
+	background: #666;
+	position: absolute;
+	top:-17px;
+}
+.carFooter{
+	height:87px;
+	border-top:1px solid #ccc;
+	line-height: 87px;
+}
+.carFooter a{
+	margin-right: 50px;
+	color: #666;
+	font-size:18px;
+	font-weight:bold;
+	font-family: "宋体";	
+	position: relative;
+}
+.carFooter .line{
+	margin-left: 50px;
+}
+.buyTips{
+	padding-top: 20px;
+}
+.wrapper .buycars li{
+	width: calc(25% - 15px);	/*宽度为25%-15px*/
+	margin-right: 20px;	
+}
+.wrapper .buycars li img{
+	width: 100%;
+}
+.wrapper .buycars li:nth-of-type(4){
+	margin-right: 0px;
+}
+.buycars li a{
+	font-size: 14px;
+	color: #333;
+}
+.buycars li p{
+	font-size: 12px;
+	padding: 5px 0px;
+	line-height:20px;
+}
+.navActive{
+	display: block;
+}
+footer{
+	background: #f1f1f1;
+}
+footer a{
+	color: #333;
+}
+.fmenu{
+	padding: 30px 0px 15px;
+}
+.fmenu dl{
+	 font-size: 14px;	
+}
+.fmenu dt,.others dt,.aboutUs dt{
+	font-size: 20px;
+	font-weight: 500;
+}
+.fmenu dd{
+	margin-top: 20px;
+}
+.others{
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	padding: 30px 0px;
+}
+.others dl{
+	margin-bottom: 0px;
+}
+.others dd,.aboutUs dd{
+	float: left;
+	width: 20%;
+	margin-top: 20px;
+}
+.aboutUs{
+	padding: 30px 0px 35px;
+}
+.aboutUs dd{
+	width: 44px;
+	height: 44px;
+	margin-right: 20px;
+	position: relative;
+}
+.abouthover{
+	width: 44px;
+    position: absolute;
+    top: 0px;
+    display: none;
+}
+.copyRight{
+	height: 50px;
+	background: #222;
+	display:flex;
+}
+.copyRight .copyBox{
+	display: flex;
+	width: 100%;
+	align-items: center;/*垂直居中*/
+}
+.copyRight dl{
+	width: 100%;
+	display: flex;	
+	-webkit-box-pack: justify;
+	justify-content: space-between;	
+}
+.copyRight dd{	
+	display: inline-block;
+	margin-right: 20px;
+}
+.copyRight dd>a{
+	color: #aaa;
+	font-size: 12px;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px){
+	
+	.wraps{
+		width:calc(700 / 768 * 100%);
+	}
+	header{
+		z-index: 100;
+	}
+	nav .navbars li>a{
+		margin-left: 30px;
+	}
+	nav .navTop{
+		height: auto;
+	}
+	.myfont4{
+		display: none;
+	}
+	.five::before{
+		margin-left:7px;
+		bottom: -27px;wwwwwwwwwwwwwwwwwwwwwwwwwwxxxxxxxxxxw           xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxsw xs 
+	}
+	.copyBox{
+		width: 100%;
+		padding-left: 20px;
+	}
+	.copyRight dd:nth-last-of-type(6){
+		margin-right: 0px;
+	}
+	.copyRight dl{
+		margin-bottom: 0px;
+	}
+	footer .fmenu dt,.others dt,.aboutUs dt{
+		font-size: 26px;
+	}
+}
+@media only screen and (max-width:767px ){
+	html{
+		overflow-x: hidden;
+	}
+	.wraps{
+		max-width: 750px;
+	}
+	nav{
+		background: #fff;
+	}
+	.nav-top{
+		width:100%;
+		background: #000000;
+	}
+	nav .navTop{
+		padding: 0px;	
+		height: auto;
+	}
+	.logo{
+		width:100%;
+		float:none;
+		height:80px;
+	    padding:0px 20px;
+	    display: flex;
+	}
+	.logo a{
+		width:162px;
+		height:80px;
+	}
+	.logo img{
+		width:162px;
+		height:40px;	
+		margin: 20px 0px;
+	}
+	.nav-toggle{
+		flex:1;
+		height: 80px;
+		display: flex;
+		flex-direction:row-reverse ;
+		align-items: center;
+	}
+	.menu-toggle{
+		height: 20px;	
+	}
+	.menu-line{
+		display:block;
+		width:20px;
+		height: 2px;
+		background:#ecf0f1;
+		margin-bottom:3px;	
+		transform-origin: center;
+		transition: all 0.2s;
+	}
+	.menu-list{
+		display: none;
+		background:#fff;
+	}
+	nav .navbars {
+		float: none;
+		padding: 0px 20px;
+	}
+	nav .navbars li,.wrapper .car-list li,.wrapper .car-list li{
+		float:none;
+		padding: 20px 0px 5px;
+		border-bottom:1px solid #ccc;	
+		color: #222222;
+		font-size: 13px;
+		margin: 0px;
+		width:100%;	
+	}
+	nav .navbars li a{
+		color: #000;
+		margin: 0px;
+	}
+	.myFont,.myFont2{
+		color:#00ADEF;
+		float:right;
+		margin-right: 0px;
+	}
+	.search-box{
+		margin: 20px 20px;
+		position: relative;
+		display: block;
+	}
+	.search-box input{
+		width:100%;
+		height:44px;
+		border:1px solid #d8d8d8;
+		box-sizing: border-box;
+		padding-left: 40px;
+		outline: none;
+	}
+	.mysearch{
+		position: absolute;
+		top:4px;
+		font-size: 20px;
+		color: #999;
+		margin-left: 10px;
+	}
+	.active{
+		display: block;
+	}
+	.lineone{
+		transform: rotate(45deg);
+		margin:8px 0px -2px;	
+	}
+	.linetwo{
+		transform: rotate(-45deg);	
+	}
+	.linethree{
+		display: none;	
+	}
+	.carFooter{
+		line-height:normal;
+		border-top:none;
+		margin-top: 20px;
+		padding: 0px 20px;
+	}
+	.carFooter a{
+		font-size: 13px;
+		color: #666;
+		margin-bottom: 20px;
+		font-weight: normal;
+		display: block;
+		margin-right: 0px;
+	}
+	.nav-search{
+		display: none;
+	}
+	nav .navbars li.topmenu,.wrapper .car-list li.topmenu{
+		background: #f2f2f2;
+		text-align: center;
+		margin: 0px;
+		padding: 10px 0px;
+	}
+	nav .navbars li.topmenu a{
+		color: #222;
+		font-size: 16px;
+	}
+	nav .navbars li.topmenu .myFont,.wrapper .car-list li.topmenu .myFont{
+		transform: rotate(180deg);
+		float:left;
+		margin-left:20px;
+	}
+	.wrapper .car-list{
+		padding: 0px 20px;
+	}
+	nav .navone,.car-menu .navone{
+		padding: 0px;
+	}
+	.buyTips{
+		padding: 0px;
+	}
+	.wrapper .car-list li{
+		padding: 10px 0px 10px;
+	}
+	.check{
+		padding: 0px 20px;
+		margin: 0px;
+	}
+	.check a{	
+		border-bottom:1px solid #ccc;
+		margin-bottom: 0px;
+		font-size: 13px;
+		padding: 10px 0px;
+		font-weight: bold;
+	}
+	.col-xs-12{
+		padding-left: 0px;
+	}
+	.carMenu-list{
+		width: 100%;
+	}
+	.carMenu-list li{
+		width:100%;
+	}
+	.picture{
+		text-align: center;
+	}
+	.carList{
+		padding: 0px 20px;
+	}
+	.carList a{
+		border-bottom:1px solid #ccc;
+	}
+	.carList a p{
+		float: left;
+	}
+	.carList a small{
+		float: right;
+	}
+	.carMenu-list li a{
+		margin-top: 20px;
+	}
+	.fmenu{
+		padding: 0px 20px;
+	}
+	.fmenu dt, .others dt, .aboutUs dt{
+		border-bottom:1px solid #ccc;
+		padding: 20px 0px;
+		font:inherit;
+	}
+	.myFont2{
+		float: right;
+		transform: rotate(90deg);
+		font-weight: 500;
+	}
+	.others{
+		border: none;
+		padding: 0px 20px;
+	}
+	.aboutUs{
+		padding: 0px 20px;
+		margin-bottom: 20px;
+	}
+	.aboutUs dt{
+		border: none;
+	}
+	.fmenu dd{
+		display: none;
+		padding-left: 10px;
+	}
+	dl{
+		margin-bottom: 0px;
+	}
+	.others dd{
+		float: none;
+		display: none;
+		width: 100%;
+	}
+	.copyRight dl{
+		display: block;
+	}
+	.copyRight{
+		background: #222;
+		height: auto;
+		padding: 20px 0px;
+		text-align: center;
+	}
+	.copyRight dd:nth-of-type(1){
+		display: block;
+	}
+	.copyRight dd a{
+		color: #999;
+	}
+	.myFont3{
+		transform: rotate(270deg);
+	}
+	.myfont4{
+		color: #00ADEF;
+		margin-left:2px;
+	}
+}

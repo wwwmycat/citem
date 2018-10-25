@@ -1,0 +1,43 @@
+body{
+	background: #000;
+}
+.container{
+	width: 940px;
+}
+.myContainer{
+   background: #222222;
+}
+.content{
+	margin: 0 auto 30px;
+	width: 800px;
+}
+.content h3{
+	margin-top: 70px;
+	margin-bottom: 50px;
+	padding: 0;
+	font-size: 36px;
+	font-family: "SimSun",serif;
+	color: #fff;
+}
+.content span{
+	font-size: 14px;
+	color: #666;
+}
+.mypictrue img{
+	margin-bottom: 30px;
+	width: 100%;
+}
+.share{
+	float: right;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	color: white;
+	font-size: 16px;
+}
+.share a{
+	color: white;
+}
+.share span{
+	display: inline-block;
+	margin-left: 17px;
+}

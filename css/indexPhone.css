@@ -1,0 +1,383 @@
+html,body{
+	overflow-x: hidden;
+}
+.wraps{
+	max-width: 750px;
+}
+nav{
+	background: #fff;
+}
+.nav-top{
+	width:100%;
+	background: #000000;
+}
+nav .navTop{
+	padding: 0px;	
+	height: auto;
+}
+.logo{
+	width:100%;
+	float:none;
+	height:80px;
+    padding:0px 20px;
+    display: flex;
+}
+.logo a{
+	width:162px;
+	height:80px;
+}
+.logo img{
+	width:162px;
+	height:40px;	
+	margin: 20px 0px;
+}
+.nav-toggle{
+	flex:1;
+	height: 80px;
+	display: flex;
+	flex-direction:row-reverse ;
+	align-items: center;
+}
+.menu-toggle{
+	height: 20px;	
+}
+.menu-line{
+	display:block;
+	width:20px;
+	height: 2px;
+	background:#ecf0f1;
+	margin-bottom:3px;	
+	transform-origin: center;
+	transition: all 0.2s;
+}
+.menu-list{
+	display: none;
+	background:#fff;
+}
+nav .navbars {
+	float: none;
+	padding: 0px 20px;
+}
+nav .navbars li,.wrapper .car-list li,.wrapper .car-list li{
+	float:none;
+	padding: 20px 0px 5px;
+	border-bottom:1px solid #ccc;	
+	color: #222222;
+	font-size: 13px;
+	margin: 0px;
+	width:100%;	
+}
+nav .navbars li a{
+	color: #000;
+	margin: 0px;
+}
+.myFont,.myFont2{
+	color:#00ADEF;
+	float:right;
+	margin-right: 0px;
+}
+.search-box{
+	margin: 20px 20px;
+	position: relative;
+	display: block;
+}
+.search-box input{
+	width:100%;
+	height:44px;
+	border:1px solid #d8d8d8;
+	box-sizing: border-box;
+	padding-left: 40px;
+	outline: none;
+}
+.mysearch{
+	position: absolute;
+	top:4px;
+	font-size: 20px;
+	color: #999;
+	margin-left: 10px;
+}
+.active{
+	display: block;
+}
+.lineone{
+	transform: rotate(45deg);
+	margin:8px 0px -2px;	
+}
+.linetwo{
+	transform: rotate(-45deg);	
+}
+.linethree{
+	display: none;	
+}
+.carFooter{
+	line-height:normal;
+	border-top:none;
+	margin-top: 20px;
+	padding: 0px 20px;
+}
+.carFooter a{
+	font-size: 13px;
+	color: #666;
+	margin-bottom: 20px;
+	font-weight: normal;
+	display: block;
+	margin-right: 0px;
+}
+.nav-search{
+	display: none;
+}
+nav .navbars li.topmenu,.wrapper .car-list li.topmenu{
+	background: #f2f2f2;
+	text-align: center;
+	margin: 0px;
+	padding: 10px 0px;
+}
+nav .navbars li.topmenu a{
+	color: #222;
+	font-size: 16px;
+}
+nav .navbars li.topmenu .myFont,.wrapper .car-list li.topmenu .myFont{
+	transform: rotate(180deg);
+	float:left;
+	margin-left:20px;
+}
+.wrapper .car-list{
+	padding: 0px 20px;
+}
+nav .navone,.car-menu .navone{
+	padding: 0px;
+}
+.buyTips{
+	padding: 0px;
+}
+.wrapper .car-list li{
+	padding: 10px 0px 10px;
+}
+.check{
+	padding: 0px 20px;
+	margin: 0px;
+}
+.check a{	
+	border-bottom:1px solid #ccc;
+	margin-bottom: 0px;
+	font-size: 13px;
+	padding: 10px 0px;
+	font-weight: bold;
+}
+.col-xs-12{
+	padding-left: 0px;
+}
+.carMenu-list{
+	width: 100%;
+}
+.carMenu-list li{
+	width:100%;
+}
+.picture{
+	text-align: center;
+}
+.carList{
+	padding: 0px 20px;
+}
+.carList a{
+	border-bottom:1px solid #ccc;
+}
+.carList a p{
+	float: left;
+}
+.carList a small{
+	float: right;
+}
+.carMenu-list li a{
+	margin-top: 20px;
+}
+.bannerTitle{
+	position: static;
+}
+.allTitle::before,.allTitle::after{
+	width: 40%;
+}
+.carsContent{
+	height: auto;
+	max-width: 100%;
+	margin: 0px 20px;
+	width: auto;
+}
+.carImg{
+	width: 100%;
+}
+.carTabs{
+	width: 100%;
+	height: 100%;	
+}
+.carTabs li{
+	width: 100%;
+	height: 25%;
+	border-bottom:1px solid #fff;
+}
+.carTabs li span {
+	left: 20px;
+	right: 27px;
+	max-width: unset;
+	top:50%;
+	transform: translateY(-50%);
+	text-align: left;
+}
+.carTabs .myfont{
+	display: inline-block;
+	font-size: 25px;
+	float: right;
+	margin: -12px 7px 0px 0px;
+}
+.carTabs li span.cover::before {
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    float: right;
+    line-height: 20px;
+    margin-bottom: 0px;
+}
+.seeMore li:nth-of-type(2){
+	width:100%;
+}
+.seeMore li:nth-of-type(3){
+	width:100%;
+}
+.moreTitle{
+	width: auto;
+	height: auto;
+	top:50%;
+	transform: translateY(-50%);
+}
+.moreHide{
+	display: block;
+	margin-top: -20px;
+}
+.pcenter{
+	top:0px;
+}
+.moreHide p{
+	display: none;
+}
+.reTips{
+	width: 100%;
+	height:130px;
+	background: rgba(0,0,0,0.3);
+	top:initial;
+	color: white;
+	margin-top: -131px;
+}
+.reTips p{
+	margin-bottom: 0px;
+}
+.reTips .rep{
+	display: none;
+}
+.reTips a{
+	color: #fff; 
+}
+.fmenu{
+	padding: 0px 20px;
+}
+.fmenu dt, .others dt, .aboutUs dt{
+	border-bottom:1px solid #ccc;
+	padding: 20px 0px;
+	font:inherit;
+}
+.myFont2{
+	float: right;
+	transform: rotate(90deg);
+	font-weight: 500;
+}
+.others{
+	border: none;
+	padding: 0px 20px;
+}
+.aboutUs{
+	padding: 0px 20px;
+	margin-bottom: 20px;
+}
+.fmenu dd{
+	display: none;
+	padding-left: 10px;
+}
+dl{
+	margin-bottom: 0px;
+}
+.others dd{
+	float: none;
+	display: none;
+	width: 100%;
+}
+.others dd a{
+	width: 100%;
+	display: inline-block;
+}
+.aboutUs dt{
+	border: none;
+}
+.copyRight{
+	background: #222;
+	height: auto;
+	padding: 20px 0px;
+	text-align: center;
+}
+.copyRight dd:nth-of-type(1){
+	display: block;
+}
+.copyRight dd a{
+	color: #999;
+}
+.myFont3{
+	transform: rotate(270deg);
+}
+.clickBtn{
+	top: 40%;
+	bottom: auto;
+}
+.bannerTitle p{
+	color: #000;
+}
+.allTitle{
+	font-size: 27px;
+	padding: 0px;
+	margin: 30px 0px 20px;
+}
+.shows{
+	display: block;
+}
+.fix-title{
+	position: static;
+}
+.fix-title p{
+	font-size: 13px;
+	color: #333;
+	width: 100%;
+	margin: 20px auto;
+	text-align: justify;
+	padding: 0px 20px;
+	letter-spacing: 0.4px;
+}
+.loginBtn{
+	height: 30px;
+	line-height: 30px;
+	font-size:13px ;
+}
+.pcImg{
+	width: 100%;
+}
+.seeMore{
+	padding: 0px 20px;
+}
+.banner{
+	height: 762px;
+}
+@media only screen  and (max-width: 375px) {
+	.banner{
+		height: 486px;
+	}
+}
+.myfont4{
+	color: #00ADEF;
+	margin-left:2px;
+}

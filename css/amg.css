@@ -1,0 +1,796 @@
+body{
+	background: #000;
+}
+.container{
+	width: 940px;
+}
+.slid-cons{
+	width: 100%;
+	position: relative;
+}
+#content{
+	position: relative;
+}
+.heros{
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin-top: 50px;
+	width: 100%;
+	text-align: center;
+}
+.slide-info{
+	overflow: hidden;
+}
+.slides{
+	position: relative;
+	width: 1000%;
+}
+.slides li{
+	float: left;
+	width: 10%;
+}
+.slides li>img{
+	width: 100%;
+}
+.picList img,.myMap img{
+	width: 100%;
+}
+.hero-info{
+	color: white;
+	margin-top: 30px;
+}
+.hero-title .btn-default{
+	margin-top: 20px;
+	width: 100px;
+	background: #c00;
+	color: white;
+	border-color: #c00;
+	border-radius: 0;
+}
+.titles{
+	display: none;
+}
+.slideTop{
+	position: relative;
+}
+.slideTop>span{
+	position: absolute;
+	display: none;
+	top: 50%;
+	margin-top: -13px;
+	width: 26px;
+	height: 26px;
+	transform: rotate(45deg);
+	cursor: pointer;
+}
+.slideTop>span.tag-left{
+	left: 20px;
+	border-left: 3px solid white;
+	border-bottom: 3px solid white;;
+}
+.slideTop>span.tag-right{
+	right: 20px;
+	border-right: 3px solid white;
+	border-top: 3px solid white;
+}
+.slide-cons .myLine{
+	position: absolute;
+	top: 80%;
+	left: 50%;
+	margin-left: -80px;
+}
+.hi{   
+	margin-top: -98%;
+    position: relative;
+}
+.myLine li{
+	float: left;
+	margin-right: 5px;
+	width: 36px;
+	height: 1px;
+	background: white;
+	position: relative;
+}
+.myLine li.two{
+	width: 72px;
+}
+.hh::after{
+	content: '';
+	position: absolute;
+	width: 0;
+	height: 1px;
+	background: red;
+	animation: changes 2s linear;
+
+}
+@keyframes changes{
+	from{width: 0px}
+	to{width: 72px}
+}
+.list-info{
+	margin-left: 20%;
+}
+.list-info li{
+	float: left;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-right: 5%;
+}
+.list-info li a{
+	color: white;
+}
+.list-info li a:hover{
+	text-decoration: none;
+	color: #c00;
+}
+.list-info li a.cro{
+	color: #c00;
+}
+video{
+	width: 100%;
+}
+.myContainer{
+	position: relative;
+}
+.myContainer h3{
+	text-align: center;
+	line-height: 40px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.car-info{
+	position: relative;
+	display: inline-block;
+	color: white;
+	font-size: 36px;
+	font-family: "simsun";
+}
+.car-info::before{
+	content: '';
+	width: 1px;
+	height: 40px;
+	background: #c00;
+	position: absolute;
+	top: 0;
+	left: -10px;
+	transform: rotate(15deg);
+}
+.car-lists{
+	margin-bottom: 20px;
+}
+.redLine{
+	margin-left: 30%;
+}
+.car-lists li{
+	float: left;
+	margin-right: 10%;
+	cursor: pointer;
+}
+.car-lists li a{
+	color: white;	
+}
+a:hover,a:focus{
+	text-decoration: none;
+}
+.redLine a{
+	border-bottom: 2px solid #c00;
+}
+.carPic{
+	overflow: hidden;
+}
+.picList{
+	position: relative;
+	width: 1200px;
+	color: white;
+}
+.picList li{
+	float: left;
+	width: 224px;
+	margin-right: 11px;
+}
+.picList img{
+	width: 200px;
+}
+.picList b{
+	margin-right: 5px;
+	font-size: 36px;
+	font-weight: normal;
+	font-family: "SimSun",serif;
+}
+.picList .level{
+	position: relative;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.picList .level::before{
+	content: '';
+	display: block;
+	position: absolute;
+	bottom: -5px;
+	left: 2px;
+	width: 20px;
+	height: 2px;
+	background: white;
+}
+.carType{
+	line-height: 25px;
+	width: 200px;
+}
+.click-left,.click-right{
+	position: absolute;
+	top: 200px;
+	width: 20px;
+	height: 20px;
+	cursor: pointer;
+	color: red;
+}
+.click-left{
+	left: 2px;
+	display: none;
+}
+.click-right{
+	right: 5px;
+}
+.picList1{
+	display: none;
+}
+.company-info{
+	position: relative;
+}
+.aboutCompany{
+	position: absolute;
+	top: 50%;
+	margin-top: -80px;
+	left: 17%;
+	max-width: 32%;
+	color: white;
+}
+.aboutCompany h4{
+	margin-bottom: 20px;
+	font-size: 36px;
+	font-family: "SimSun",serif;
+}
+.aboutCompany p{
+	line-height: 25px;
+	font-size: 14px;
+	font-family: "Microsoft YaHei","SimHei",Helvetica,Arial,serif;;
+}
+.company-info img{
+	width: 100%;
+}
+.mypic{
+	width: 50%;
+	max-height: 660px;
+	background: white;
+}
+.writting{
+	margin-left: 30px;
+	margin-bottom: 140px;
+}
+.writting li{
+	float: left;
+	position: relative;
+	margin-right: 38px;
+	font-size: 14px;
+	cursor: pointer;
+}
+.slantLine{
+	color: #c00;
+}
+.slantLine::before{
+	content: '';
+	display: block;
+	position: absolute;
+	top: 52px;
+	left: -10px;
+	width: 4px;
+	height: 16px;
+	transform: rotate(15deg);
+	background: #c00;
+}
+.information{
+	margin-left: 20px;
+}
+.information h4,.more-msg h4{
+	margin-bottom: 20px;
+	font-size: 28px;
+	font-family: "SimSun",serif;
+}
+.information p{
+	line-height: 2.19;
+	max-width: 467px;
+	margin-bottom: 20px;
+}
+.information a{
+	color: #333;
+}
+.information a span{
+	margin-left: 10px;
+}
+.design li{
+	margin-top: 30px;
+	font-size: 16px;
+	color: #666;
+	cursor: pointer;
+}
+.design li:hover{
+	color: #c00;
+}
+.design li span{
+	margin-left: 10px;
+}
+.modal{
+	z-index: 999999;
+}
+.modal-header{
+	border: 0;
+}
+.close {
+    margin-right: 80px;
+}
+.more-msg{
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto 400px;
+}
+.msgCon{
+	max-width: 940px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.more-msg span{
+	position: absolute;
+	top: 300px;
+	right: 48px;
+	font-size: 30px;
+	color: ##999;
+	cursor: pointer;
+}
+.more-msg p{
+	line-height: 30px;
+}
+.more{
+	cursor: pointer;
+}
+.more-msg h4{
+	padding-left: 20px;
+	position: relative;
+	margin-bottom: 70px;
+}
+.more-msg h4::before{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 5px;
+	width: 2px;
+	height: 28px;
+	background: #C00;
+	transform: rotate(15deg);
+}
+.modal-dialog {
+    width: 100%;
+    margin: 0;
+}
+#myModal{
+	margin-left: -17px;
+	z-index: 999999;
+}
+.twoPic{
+	float: right;
+}
+.twoIntroduce{
+	box-sizing: border-box;
+	padding-left: 190px;
+}
+.infos,.myMsg,.pics{
+	display: none;
+}
+.companys{
+	left: 50%;
+}
+section p{
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 50px;
+	max-width: 623px;
+	color: white;
+	font-size: 16px;
+	text-align: center;
+    line-height: 30px;
+}
+.mySection,.mySlide{
+	position: relative;
+}
+.myDrive{
+	margin-bottom: 0;
+}
+pictrue{
+	display: block;
+}
+.car{
+	margin-left: auto;
+	margin-right: auto;
+}
+.mypicture{
+	text-align: center;
+}
+.car img{
+	margin-top: -100px;
+	width: 213px;
+	height: 213px;
+}
+.publicNum p{
+	margin-top: 20px;
+	text-align: center;
+	font-size: 20px;
+	color: white;
+}
+.myBtn{
+	display: block;
+	margin: 0 auto;
+	width: 200px;
+	height: 50px;
+	border: none;
+	border-radius: 0;
+	color: white;
+	font-size: 14px;
+	text-align: center;
+	line-height: 38px;
+	background: #c00;
+}
+.myBtn:hover{
+    color: white;
+    background-color: #c00;
+}
+.scan{
+	margin-top: 20px;
+	font-size: 20px;
+}
+.myRow{
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+.new .col-md-4{
+	cursor: pointer;
+}
+.new .thumbnail{
+	padding: 0;
+	border-radius: 0;
+	border: none;
+}
+.new .thumbnail img{
+	height: 200px;
+}
+.new .caption{
+	background: #000;
+}
+.new .caption h3{
+	position: relative;
+    margin-top: 0; 
+    margin-bottom:30px; 
+	text-align: left;
+    line-height: 40px; 
+    font-size: 14px;
+    color: #9e9e9e;
+}
+.new h3::after{
+	content: '';
+	width: 12px;
+	height: 1px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background: #9e9e9e;
+}
+.new a{
+	font-weight: 600;
+	font-family: "SimSun",serif;
+	 color: white;
+}
+.detailedInfo{
+	position: relative;
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+.detailedInfo::after{
+	content: '';
+	position: absolute;
+	top: -30px;
+	left: 0;
+	width: 48px;
+	height: 2px;
+	background: white;
+}
+.detailedInfo li{
+	margin-top: 20px;
+	color: #c7c7c7;
+	font-size: 13px;
+}
+.share{
+	float: right;
+	margin-bottom: 100px;
+	color: white;
+	font-size: 16px;
+}
+.share span{
+	margin-left: 17px;
+}
+.list-info li a.redColor{
+	color: #c00;
+}
+.list-info li a:hover{
+	color: #c00;
+}
+.myMedia{
+	width: 100%;
+	margin-bottom: -1px;
+	margin-top: 0;
+}
+.myMedia .media-left,.myMedia .media-right{
+	width: 50%;
+	background: white;
+}
+.myMedia .media-left img{
+	width: 100%;
+}
+.myMedia .media-body{
+    width: 50%;
+    height: 100%;
+    background: white;
+}
+.myMedia .introduce{
+	padding-top: 0;
+	width: 100%;
+}
+.writting{
+     margin-left: 0; 
+     margin-bottom: 0; 
+    line-height: 120px;
+}
+.writting li:nth-of-type(1){
+	margin-left: 20px;
+}
+.mywrite2 li{
+	margin-right: 22px;
+}
+.mywrite2{
+	line-height: 115px;
+}
+.myMedia-body{
+	padding-left: 80px;
+}
+.sets::before{
+	top: 48px;
+}
+.myDcon{
+	position: relative;
+}
+.myDate{
+	position: absolute;
+	left: 20px;
+	bottom: 20px;
+}
+.myDate p{
+	margin-top: 20px;
+	font-size: 24px;
+	max-width: 200px;
+	font-family: "PingFang SC","Hiragino Sans GB","Noto Sans CJK SC","Source Han Sans SC","Microsoft YaHei","SimHei",Helvetica,Arial,serif;
+	color: white;
+}
+.myDate .myBtn{
+	margin-left: 0;
+	width: 100px;
+	height: 30px;
+	line-height: 18px;
+	font-size: 12px;
+}
+.xsnav{
+	margin-left: 0;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 9999;
+	background: #000;
+	text-align: center;
+}
+#xsnav{
+	width: 100%;
+}
+#xsnav li:nth-of-type(1){
+	margin-left: 2%;
+}
+#xsnav li{
+	margin-right: 5.5%;
+}
+#xsnav li a{
+	z-index: 2;
+	cursor: pointer;
+}
+#xsnav li a.ch{
+	color: #c00;	
+	text-decoration: none;
+}
+picture .responsive-img{
+	width: 100%;
+}
+.gg{
+	display: none;
+}
+.intro-ingo{
+	position: relative;
+	margin-bottom: 10px;
+	font-size: 20px;
+}
+.intro-ingo::after{
+	content: '';
+	position: absolute;
+	top: -10px;
+	left: 3px;
+	width: 10px;
+	height: 2px;
+	background: #c00;
+}
+.picS img{
+	height: 100%;
+}
+#contents{
+	background: white;
+}
+.mapCon{
+	position: relative;
+	width: 100%;
+	height: 735px;
+	background: url(../img/map.png) no-repeat;
+}
+.map-info{
+	position: absolute;
+	top: 10px;
+	left: 55px;
+	width: 375px;
+	height: 580px;
+    box-shadow: 0 4px 10px 0 rgba(196,196,196,0.5);
+    background: #444;
+    z-index: 999;
+}
+.map-top{
+	margin-bottom: 20px;
+	padding: 15px;
+}
+.map-info input{
+	border: 0;
+	padding-left: 40px;
+	padding-right: 40px;
+	outline: none;
+	background: #444;
+	color: white;
+}
+.input{
+	padding: 6px 10px 6px 20px;
+	border: 1px solid #F1F1F1;
+	font-size: 15px;
+	color: #999;
+}
+.mySearch{
+	margin-right: -20px;
+}
+.three{
+	float: right;
+}
+.map-top p:nth-of-type(1) span{
+	color: #999;
+}
+.map-top p:nth-of-type(1) b{
+	color: white;
+}
+.map-top p:nth-of-type(1) i{
+	color: #c00;
+	font-size: 18px;
+}
+.map-bottom>span{
+	padding-left: 15px;
+}
+.map-bottom>p{
+    padding-left: 17px;
+    padding-right: 17px;
+    margin-top: 20px;
+	font-size: 14px;
+	font-weight: bold;
+	border-bottom: 3px solid #d8d8d8;
+}
+.list,.tow-list{
+    position: relative;
+	cursor: pointer;
+}
+.map-bottom{
+	color: white;
+}
+.map-bottom .list{
+	float: left;
+}
+.map-bottom .lists{
+	color: #c00;
+}
+.map-bottom .lists::after{
+	content: '';
+	position: absolute;
+	bottom: -3px;
+	left: -5px;
+	width: 40px;
+	height: 3px;
+	background: #c00;
+}
+.map-bottom .tow-list{
+	float: right;
+}
+.first-info ul p{
+	margin: 0;
+}
+.list-content{
+	overflow-y: auto;
+	max-height: 360px;
+}
+.menu-up{
+	transition: all .5s;
+	color: #c00;
+}
+.come{
+	transform: rotate(180deg);
+}
+.first-info .myAddress>li{
+	border-bottom: 1px solid white;
+	padding: 15px;
+	height: 120px;
+    overflow: hidden;
+    position: relative;
+}
+.myAddress .inRight{
+	float: right;
+}
+.myAddress>li>span{
+	position: absolute;
+	right: 15px;
+	top: 95px;
+}
+.address li{
+	float: left;
+	margin-right: 4px;
+	margin-top: 7px;
+	padding: 0 10px;
+	height: 22px;
+	line-height: 22px;
+	border-radius: 11px;
+	border: 1px solid #999;
+	font-size: 12px;
+	color: #666;
+}
+.two-info{
+	display: none;
+	padding: 15px;
+}
+.details .wordRed{
+	background: #c00;
+	border: none;
+}
+.details{
+	margin-bottom: 20px;
+}
+.details li{
+	float: left;
+	padding: 0 7px;
+	margin-top: 15px;
+	margin-right: 2px;
+	height: 35px;
+	border: 1px solid #C7C7C7;
+	border-radius: 26px;
+	line-height: 35px;
+	cursor: pointer;
+	font-size: 13px;
+	color: white;
+}
+.myBtns{
+	width: 335px;
+	height: 40px;
+	line-height: 28px;
+}

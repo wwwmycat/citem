@@ -1,0 +1,275 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "微软雅黑";
+	list-style: none;
+	text-decoration: none;
+}
+body{
+	background: #f2f2f2;
+}
+a:hover{
+	text-decoration: none;
+}
+#contents{
+	background: white;
+}
+@media (min-width: 781px) {
+	section{
+		margin-bottom: 80px;
+	}
+	.zx-pic{
+		height: 592px;		
+	}
+	section:nth-of-type(1) .zx-pic{		
+		background: url(../img/banner_1440x600.jpg) no-repeat;
+		background-size: 100%;
+	}
+	.zx-txt{
+		position: relative;
+		margin-top: -70px;
+		margin-bottom: 15px;
+		background: white;
+		box-shadow: 0 8px 10px 0 rgba(0,0,0,0.08);
+		padding: 70px 60px 40px 60px;
+	}
+	.zx-txt h4{
+		font-size: 36px;
+	    font-weight: 300;
+	    text-align: left;
+	    color: #666;
+	}
+	.zx-txt h4::after,
+	.cz-txt h4::after{
+		content: '';
+		width: 30px;
+		border: 1px solid #666;
+		position: absolute;
+		top: 140px;
+		left: 60px;
+	}
+
+	.zx-txt p{
+		margin-top: 40px;
+		color: #333;
+		font-size: 16px;
+		line-height: 2.5;	
+	}
+	.zx-txt h5{
+		color: #333;
+		font-size: 16px;
+		line-height: 2.19;
+	}
+	.cz-title{
+		margin-left: -60px;
+		margin-right: -60px;
+	}
+	.cz-title1{
+		display: none;
+	}
+	.cz-title ul{		
+		padding-left: 60px;
+		overflow: auto;
+		background: #F2F2F2;
+	}
+	.cz-title li{
+		float: left;		
+	}
+	.cz-title li a{
+		height: 50px;
+	    font-size: 16px;
+	    font-weight: 600;
+	    text-align: left;
+	    color: #333;
+	    display: inline-block;
+	    margin-right: 30px;
+	    vertical-align: text-bottom;
+	    cursor: pointer;
+	    line-height: 50px;
+	}
+	.cz-title li a i{
+		display: none;
+	}
+	.cz-txt{
+		overflow: auto;
+		background: white;
+		margin-top: -35px;
+		margin-bottom: 20px;
+		padding: 0 60px 50px 60px;
+	}
+	.cz-txt h4{
+		font-size: 30px;
+		margin-top: 20px;
+		width: 35%;
+	}
+	.cz-txt h4::after{
+		top: 90px;
+	}
+	.cz-txt p{
+		white-space:normal;
+		margin-top: 0px;	
+		font-size: 14px;
+		line-height: 1.9;
+	}
+	.cz-txt p:nth-of-type(1){
+		margin-top: 50px;
+	}
+	.cz-txt img{
+		float: right;
+		margin-top: -40px;
+	}
+	.two{
+		display: none;
+	}
+	.cz-title ul li a.ch{
+		border-bottom: 2px solid #00ADEF;
+	}	
+		
+}	
+@media (max-width: 780px ) {
+	.zx-pic{
+		height: 250px;
+	}
+	section:nth-of-type(1) .zx-pic{		
+		background: url(../img/banner-m-2x_750x500.jpg) no-repeat;
+		background-size: 100%;
+	}
+	.zx-txt{
+		margin-left: -15px;
+		margin-right: -15px;
+		position: relative;
+		background: white;
+		overflow: hidden;
+		padding: 40px 20px 30px 20px;
+	}
+	.zx-txt h4{
+		font-size: 20px;
+	    font-weight: 300;
+	    text-align: center;
+	    color: #666;
+	}
+	.zx-txt h4::after{
+		content: '';
+		width: 30px;
+		border: 1px solid #666;
+		position: absolute;
+		top: 105px;
+		left: 50%;
+		margin-left: -15px;
+	}
+	.zx-txt p{
+		margin-top: 40px;
+		color: #333;
+		font-size: 13px;
+		line-height: 2.19;	
+	}
+	.cz-txt{
+		background: white;
+		padding-bottom: 10px;
+		margin: -15px;
+		margin-top: -10px;
+	}
+	.cz-txt h4{
+		text-align: left;
+	}
+	.cz-txt h4::after{
+		content: '';
+		width: 26px;
+		border: 1px solid #666;
+		position: absolute;
+		top: 40px;
+		left: 15px;
+	}
+	.cz-txt p{
+		margin-top: 10px;
+		color: #666;
+	}	
+	.cz-txt img{
+		margin-top: 30px;
+		width: 100%;
+	}
+	.two{
+		display: none;
+	}
+	.cz-title{
+		display: none;
+	}
+	.cz-title1{
+		position: relative;
+		margin-bottom: 70px;
+	}
+	.cz-title1 i{
+		position: absolute;
+		float: ;
+		right: 10px;
+		font-weight: 100;
+		color: #00ADEF;
+		line-height: 40px;
+	}
+	.cz-title1 i:nth-of-type(2){
+		display: none;
+	}
+	.cz-title1 ul{
+		overflow: hidden;
+		margin-left: -20px;
+		margin-right: -20px;
+		border: 1px solid #E1E1E1;
+	}
+	
+	.cz-title1 ul a{
+		margin-left: 15px;
+		line-height: 40px;
+		font-size: 14px;
+		color: black;
+		font-weight: bold;	
+	}
+	.cz-title1 ul li.ch{
+		background: #F2F2F2;
+		width: 112%;
+		position: absolute;
+	}
+	.cz-title1 ul li a.ch{		
+		display: block;
+	}
+	.cz-title1 ul li.noch{
+		position: absolute;
+		width: 110%;
+		top: 40px;		
+		background: white;
+	}
+	.cz-title1 ul li a.noch{
+		display: none;
+		color: #666;		
+		line-height: 50px;		
+	}
+}
+.xs-bottom{
+	margin-bottom: 80px;
+}
+.xs-share{
+	float: right;
+	margin: 30px 0 0 0 ;
+}
+.xs-share p{
+	overflow: auto;
+	line-height: 30px;
+	color: #333;
+	font-size: 14px;	
+	float: left;
+	font-size: 14px;
+}
+.xs-share span{
+	margin-left: 20px;
+	float: left;
+	display: block;
+	width: 32px;
+	height: 32px;
+}
+.xs-share span:nth-of-type(1){
+	background: url(../img/微信.png) no-repeat;
+	background-size: 100%;	
+}
+.xs-share span:nth-of-type(2){
+	background: url(../img/微博.png) no-repeat;
+	background-size: 100%;	
+}

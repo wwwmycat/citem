@@ -1,0 +1,10 @@
+.container{
+	width: 100%;
+}
+.container .content{
+	width: 100%;
+}
+.myCon{
+	width: 90%;
+	margin: -143px auto 0;
+}
